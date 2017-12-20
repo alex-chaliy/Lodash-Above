@@ -17,6 +17,7 @@ function _groupObjectsBy( propName, objectsArray, outputGroupName, outputValuesN
 		.groupBy( obj => obj[ propName ] )
 		.map( (values, key) => {
 			let obj = {};
+			obj[ 'groupedBy' ] = propName;
 			obj[ outputGroupName ] = key;
 			obj[ outputValuesName ] = values;
 			return obj;
