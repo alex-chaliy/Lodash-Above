@@ -1,0 +1,15 @@
+{
+  "name": "lodash_above",
+  "version": "0.0.1",
+  "description": "Methods above lodash",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js"
+  },
+  "author": "Alex Chaliy",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
